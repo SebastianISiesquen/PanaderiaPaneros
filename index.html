@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Paneros - Inicio</title>
+    <link rel="icon" href="imagenes/Logo_Paneros.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script>window.activePage = 'index';</script>
+</head>
+<body class="fondo-panderia">
+
+    <div id="header"></div>
+
+    <main class="main">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__contenido">
+                <img class="hero__logo" src="imagenes/Logo_Paneros.png" alt="Logo de Panadería Paneros">
+                <h1 class="hero__titulo">Bienvenido a <span>Panadería Paneros</span></h1>
+                <p class="hero__subtitulo">El mejor de toda la región</p>
+                <div class="hero__cta">
+                    <a class="btn btn-primario" href="productos.html">Ver Productos</a>
+                    <a class="btn btn--claro" href="sobrenosotros.html">Conócenos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- El Buen Pan -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="cinta">
+                        <h2>El Buen Pan</h2>
+                    </div>
+                </div>
+                <div class="el-pan">
+                    <img class="el-pan__img reveal" src="imagenes/Elbuenpan.png" alt="El buen pan">
+                    <div class="el-pan__texto reveal">
+                        <p>Bienvenidos a la Panadería Paneros, tu lugar de confianza para disfrutar del mejor pan artesanal y pasteles frescos en Chiclayo. Desde 2009, ofrecemos productos elaborados con pasión, tradición y los mejores ingredientes. Descubre nuestras promociones diarias y déjate sorprender por nuestros sabores únicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuestros Productos Destacados -->
+        <section class="section section--claro">
+            <div class="container">
+                <div class="section-header reveal">
+                    <div class="cinta">
+                        <h2>Nuestros Productos Destacados</h2>
+                    </div>
+                </div>
+                <div class="productos-grid">
+                    <article class="card-producto reveal">
+                        <img class="card-producto__img" src="imagenes/Pandetrigo.png" alt="Pan de trigo">
+                        <div class="card-producto__body">
+                            <h3 class="card-producto__titulo">Pan de Trigo</h3>
+                            <p class="card-producto__texto">Nuestro clásico pan de trigo, perfecto para cualquier comida.</p>
+                        </div>
+                    </article>
+                    <article class="card-producto reveal">
+                        <img class="card-producto__img" src="imagenes/Croisssants.png" alt="Croissants">
+                        <div class="card-producto__body">
+                            <h3 class="card-producto__titulo">Croissants</h3>
+                            <p class="card-producto__texto">Deliciosos croissants recién horneados cada mañana.</p>
+                        </div>
+                    </article>
+                    <article class="card-producto reveal">
+                        <img class="card-producto__img" src="imagenes/Pancenteno.png" alt="Pan de centeno">
+                        <div class="card-producto__body">
+                            <h3 class="card-producto__titulo">Pan de Centeno</h3>
+                            <p class="card-producto__texto">Saludable y delicioso pan de centeno integral.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <div id="toast-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

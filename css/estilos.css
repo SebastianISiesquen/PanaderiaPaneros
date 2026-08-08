@@ -203,8 +203,8 @@ ul {
 }
 
 .hero__logo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 26px;
     border-radius: 50%;
     box-shadow: 0 0 0 5px rgba(0, 180, 187, 0.45), 0 18px 40px rgba(0, 0, 0, 0.45);
@@ -798,8 +798,8 @@ body.fondo-panderia .section--claro {
     }
 
     .hero__logo {
-        width: 110px;
-        height: 110px;
+        width: 150px;
+        height: 150px;
     }
 
     .card-producto__img {
